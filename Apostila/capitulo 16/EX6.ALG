@@ -25,10 +25,10 @@ para i de 1 ate 10 faca
             primo <- numero
           fimse
           numero <- numero + 1
+          cont_primos <- 0
     ate (encontrar = verdadeiro)
     X[i] <- primo
     encontrar <- falso
-    cont_primos <- 0
 fimpara
 para i de 1 ate 10 faca
     Escreva(X[i])
