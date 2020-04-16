@@ -1,2 +1,2 @@
 # Exercicios de Lógica
- Alguns exercícios de lógica resolvidos em Portugol
+ Alguns exercícios de lógica resolvidos em Portugol e JAVA
