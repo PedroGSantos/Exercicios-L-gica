@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadorajavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnCalc" layoutX="170.0" layoutY="320.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="196.0" text="Calcular" />
+      <Label alignment="CENTER" layoutX="207.0" layoutY="58.0" prefHeight="25.0" prefWidth="122.0" text="Soma" textAlignment="CENTER" />
+      <TextField fx:id="txtFrist" layoutX="193.0" layoutY="113.0" promptText="Digite o primeiro número" />
+      <TextField fx:id="txtSecond" layoutX="193.0" layoutY="162.0" promptText="Digite o segundo número" />
+      <Label fx:id="lblR" layoutX="266.0" layoutY="245.0" text="-" />
+   </children>
+</AnchorPane>
