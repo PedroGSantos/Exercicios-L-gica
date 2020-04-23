@@ -90,6 +90,8 @@ public class imagens extends javax.swing.JFrame {
     private void btnHoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHoraActionPerformed
         Date d = new Date();
         lblHora.setText(d.toString());
+        int k = 4;
+        
     }//GEN-LAST:event_btnHoraActionPerformed
 
     /**
