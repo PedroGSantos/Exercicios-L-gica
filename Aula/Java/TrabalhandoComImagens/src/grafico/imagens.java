@@ -35,6 +35,8 @@ public class imagens extends javax.swing.JFrame {
         btnHora = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 153, 153));
+        setForeground(java.awt.Color.darkGray);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/calendar-line.png"))); // NOI18N
 

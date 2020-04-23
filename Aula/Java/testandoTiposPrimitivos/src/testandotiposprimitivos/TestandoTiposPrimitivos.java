@@ -31,6 +31,11 @@ public class TestandoTiposPrimitivos {
         System.out.printf("O primeiro número é: %d \nO segundo número é: %.3f \n", a, r);
         System.out.println("A soma é: " + (e+r));
         System.out.println("O número é: " + v);
+        int num1=5, num2=8, num3=2;
+        num2 *= num1++;
+        System.out.println(num2);
+        num3 *= ++num1;
+        System.out.println(num3);
     }
     
 }
