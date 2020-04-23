@@ -18,7 +18,7 @@ public class SuperCalculadora {
     public static void main(String[] args) {
         // TODO code application logic here
         new calc().setVisible(true);
-        new calc().setBackground(java.awt.Color.red);
+       
         
     }
     
